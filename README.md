@@ -1,1 +1,1 @@
-![Project Manager](/master/public/images/screenshot.png)
+![Project Manager](/public/images/screenshot.png)
