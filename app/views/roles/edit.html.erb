@@ -1,7 +1,6 @@
 <header>
-  <p>New Role for: <%= @role.project.title %></p>
+  <p>Edit Role for: <%= @role.project.title %></p>
 </header>
 
 <%= render :partial => 'form' %>
-
 <%= link_to "Back to Project", project_path(@role.project) %>
