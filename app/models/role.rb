@@ -1,5 +1,5 @@
 class Role < ActiveRecord::Base
-  #attr_accessible :person_id, :project_id, :status_id, :title
+  attr_accessible :person_id, :project_id, :status_id, :title
 
   belongs_to :project
   belongs_to :person
@@ -9,4 +9,7 @@ class Role < ActiveRecord::Base
   validates :person_id, :presence => true
   validates :status_id, :presence => true
   validates :title, :presence => true
+
+  #attr_protected :project_id
+
 end
